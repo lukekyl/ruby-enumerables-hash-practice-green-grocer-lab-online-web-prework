@@ -58,7 +58,7 @@ def checkout(cart, coupons)
   }
   
   if total_price >= 100
-    total_price = total_price.round(1)
+    total_price = (total_price*0.9)
   end
   
   p with_clearance
